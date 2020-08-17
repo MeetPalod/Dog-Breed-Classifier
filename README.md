@@ -18,9 +18,15 @@ It's the Convolutional Neural Network(CNN) project in the Deep Learning Nanodegr
 	```
 		jupyter notebook Dog-breed Classifier.ipynb
 	```
-3. Read and follow the instructions! This repository doesn't include any dataset you need. You can check out the notebook to download them.
+3. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
 
+4. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.
  
+ 
+ ## (Optional) Accelerating the Training Process 
+
+If your code is taking too long to run, you will need to either reduce the complexity of your chosen CNN architecture or switch to running your code on a GPU.
+
 ## Project Information
 
 ### Contents
